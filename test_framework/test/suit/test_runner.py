@@ -15,9 +15,9 @@ if __name__=='__main__':
     runner.run(suite)
     e = Email(server='smtp.qq.com',
               sender='1404482005@qq.com',
-              receiver='1404482005@qq.com', #;'1901854026@qq.com'
+              receiver='140xxxx82005@qq.com', #;'1901854026@qq.com'
               message='百度搜索测试报告',
               title='测试报告结果',
-              password='pfoozuyovftobaca',
+              password='xxxxtobaca',
               path=report)
     e.send()
